@@ -1,0 +1,27 @@
+.Login {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+}
+
+.Login form {
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 1rem;
+}
+
+.input_field {
+  margin-bottom: 0.5rem;
+}
+
+.input_field_label {
+  margin-bottom: 0.2rem;
+  font-size: 1rem;
+}

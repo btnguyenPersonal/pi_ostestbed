@@ -1,0 +1,15 @@
+<body>
+    <script>
+        const ws = new WebSocket("ws://192.168.1.136:9000");
+        const msg = "frontend WebSocket is now open"
+
+        ws.addEventListener("open", () => {
+            console.log("connected to server");
+            ws.send(msg);
+        });
+
+        ws.onmessage = (event) => {
+            console.log(event.data);
+        };
+    </script>
+</body>

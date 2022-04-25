@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node swagger.js ; npx kill-port 8080 ; node server.js",
+    "swagger-autogen": "node swagger.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "await-exec": "^0.1.2",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "multer": "^1.4.4",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.16.0",
+    "serialport": "^10.4.0",
+    "swagger-autogen": "^2.19.0",
+    "swagger-ui-express": "^4.3.0",
+    "ws": "^8.5.0"
+  }
+}

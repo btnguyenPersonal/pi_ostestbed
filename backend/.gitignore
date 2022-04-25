@@ -1,0 +1,4 @@
+node_modules/
+.env
+**/swagger_output.json
+app/upload/files/
